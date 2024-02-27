@@ -9,10 +9,9 @@ img {
 }
 p{
     text-align: center;
+font-size: 16px;
 }
-.nav2{
-  display: flex;
-}
+
 .middle {
     transition: .5s ease;
     opacity: 0;
@@ -33,15 +32,24 @@ p{
   }
   
   .text {
+    font-family: Helvetica, Arial, Sans-Serif;
+
     color: white;
     font-size: 16px;
     padding: 16px 32px;
   }
   footer{
-    background-color: gold;
+    background-image: url("../../assets/image34.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    color: #ffffff;
+
   }
-  .nav1{
-    font-weight: bold;
-    color:black;
-    
+  .con {
+    margin-top: 20px;
+    position: relative;
+
+    left:40%;
+    margin-bottom: 3px;
   }

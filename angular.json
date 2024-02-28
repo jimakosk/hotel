@@ -62,7 +62,8 @@
                   "maximumError": "4kb"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "assets":["assets"]
             },
             "development": {
               "optimization": false,

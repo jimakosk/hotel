@@ -63,7 +63,8 @@
                 }
               ],
               "outputHashing": "all",
-              "assets":["assets"]
+              "assets":[ "src/favicon.ico",
+              "src/assets"]
             },
             "development": {
               "optimization": false,

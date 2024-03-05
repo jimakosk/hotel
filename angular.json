@@ -63,9 +63,10 @@
                 }
               ],
               "outputHashing": "all",
-              "assets":[ "src/favicon.ico",
+              "assets":[
               "src/assets"]
             },
+           
             "development": {
               "optimization": false,
               "extractLicenses": false,
@@ -103,15 +104,16 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets",
-              "assets"
+              "src/assets"
 
              
             ],
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [    
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+          ]
           }
         }
       }

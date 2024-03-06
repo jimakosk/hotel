@@ -5,3 +5,4 @@
 
 
 # ng build  --base-href ./
+# ng serve --host

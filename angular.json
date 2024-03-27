@@ -3,7 +3,16 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "hotelapl": {
+    "hotelapl": {  
+      "i18n": {
+      "sourceLocale": "en-US",
+      "locales": {
+        "es-PR": {
+          "translation": "src/locale/messages.xlf",
+          "baseHref": "en-GB/"
+        }
+      }
+    },
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -16,7 +25,7 @@
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:application",
-          "options": {
+          "options": {          
             "outputPath": "dist/hotelapl",
             "index": "src/index.html",
             "browser": "src/main.ts",
